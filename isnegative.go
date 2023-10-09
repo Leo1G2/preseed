@@ -6,6 +6,7 @@ func IsNegative(nb int) {
 	var i int
 	if i < 0 {
 		z01.PrintRune('T')
+		z01.PrintRune('\n')
 	} else {
 		z01.PrintRune('F')
 		z01.PrintRune('\n')
