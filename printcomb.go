@@ -2,14 +2,12 @@ package piscine
 
 import (
 	"github.com/01-edu/z01"
-	"github.com/01-edu/z01.PrintRune"
 )
 
-func PrintComb(nb int) {
-
+func PrintComb() {
 	for i := '0'; i <= '7'; i++ {
 		for j := i + 1; j <= '8'; j++ {
-			for k := j + 1; k <= '0'; k++ {
+			for k := j + 1; k <= '9'; k++ {
 				if i < j && j < k {
 					z01.PrintRune(i)
 					z01.PrintRune(j)
