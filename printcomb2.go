@@ -15,7 +15,7 @@ func PrintComb2() {
 						z01.PrintRune(32)
 						z01.PrintRune(k)
 						z01.PrintRune(l)
-						if l <= '8'  {
+						if l <= '9' {
 							z01.PrintRune('\n')
 						} else {
 							z01.PrintRune(44)
