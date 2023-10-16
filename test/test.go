@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	a := 0
-	b := &a
-	n := &b
-	piscine.UltimatePointOne(&n)
+	a := 6
+	b := 3
+	piscine.UltimateDivMod(&a, &b)
 	fmt.Println(a)
+	fmt.Println(b)
 }
