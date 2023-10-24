@@ -6,6 +6,6 @@ func StrLen(s string) int {
 			if char == 'é' {
 			x = x - 1
 			}
-	}
+		}
 	return x
 }
